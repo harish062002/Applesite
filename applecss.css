@@ -1,0 +1,246 @@
+
+body{
+    background-color: lightgrey;
+}
+
+.navcon{
+display: flex;
+background-color: white;
+margin-top: 0%;
+}
+.navcon .sub1{
+width: 30%;
+display: flex;
+
+margin-left: 26px;
+}
+.navcon .sub1 .img{
+padding-top: 20px;
+}
+.navcon .sub1 .content{
+    width: 40%;
+   
+    font-weight:bold ;
+    font-family:cursive;
+    font-size: 26px;
+    color:crimson;
+}
+.navcon .sub2 {
+ display: flex;
+
+ width: 70%;
+ justify-content: space-around;
+ margin-top: 46px;
+}
+.navcon .sub2 div:hover{
+color: crimson;
+}
+.section1 {
+
+display: flex;
+margin-top: 6px;
+background-color: white;
+
+}
+.section1 .img{
+
+margin-left: 26px;
+
+width: 50%;
+}
+.section1 .content{
+width: 50%;
+
+}
+.section1 .content p{
+  
+
+    margin-left: 55px;
+    font-weight:350;
+    font-size: 60px;
+    padding-right: 40px;
+    font-family:Cambria, Georgia, Times, 'Times New Roman', serif
+}
+.section1 .content .p2{
+font-size: 26px;
+font-weight:lighter;
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.section1 .content button{
+    border-color: red;
+    box-shadow: 7px 6px 6px grey;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+    margin-left: 50px;
+
+}
+.section2{
+    width: 100%;
+    display: flex;
+    margin-left: 0%;
+    justify-content: space-evenly;
+    margin-top: 1%;
+  
+    padding-right: 0;
+    padding-right: 0%;
+    margin-right: 0%;
+}
+.section2 div{
+
+    padding: 1px;
+    border-radius: 20px;
+    margin-right: 40px;
+    margin-left: 10px;
+    padding:20px; 
+    padding-bottom: 50px; 
+    width: 380px;
+    height: 570px;
+    transition: transform .2s;
+    border-radius: 20px;
+    background-color: white;
+    margin-top: 26px;
+}
+
+
+.section2 button{
+    border-color: red;
+    box-shadow: 7px 6px 6px grey;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+    margin-top: 16px;
+    
+}
+.section2 .one button{
+margin-top: 50px;
+}
+.section2 div:hover{
+transform: scale(1.1);
+}
+.section2 img{
+border-radius: 20px;
+}
+.section2 h2{
+padding-bottom: 20px;
+padding-top: 10px;
+color: crimson;
+}
+.section2 span{
+font-size: 22px;
+line-height: 1.5;
+}
+
+
+@media only screen and (max-width:1300px)
+{
+
+    .section2 {
+        width: 80%;
+        display: inline;
+        margin-top: 1%;
+        padding-top: 100px;
+       
+    }
+    .section2 div{
+        float: left;
+    }
+    .section2 .one{
+        margin-left: 50px;
+    }
+    
+    .section2 .three{
+        margin-left: 50px;
+    
+    }
+    .section2 .five{
+        margin-left: 50px;
+    
+    }
+    button{
+        margin-bottom: 20px;
+    }
+
+    .section1 .img img{
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width:1000px)
+{
+
+
+  
+.navcon{
+display: flex;
+flex-direction: column;
+background-color: white;
+margin-top: 0%;
+}
+.navcon .sub2 {
+
+ display: flex;
+ flex-direction: column;
+ width: 70%;
+ justify-content: space-around;
+ margin-top: 16px;
+ margin-left: 46px;
+}
+
+.navcon .sub2 div{
+margin-top: 10px;
+}
+.section1 {
+
+display: flex;
+flex-direction: column;
+margin-top: 6px;
+background-color: white;
+
+}
+.section2{
+width: 100%;
+display: flex;
+flex-direction: column;
+margin: auto;
+justify-content: space-around;
+margin-top: 0%;            
+}
+.section2{
+    display: block;
+}
+.section2 .one{
+    margin-left: 11px;
+}
+
+.section2 .three{
+    margin-left: 11px;
+    
+}
+
+.section2 .five{
+    margin-left: 11px;
+
+}
+.section1 .img{
+
+margin-left: 26px;
+width: 100%;
+}
+.section1 .content{
+width: 100%;
+
+}
+}
